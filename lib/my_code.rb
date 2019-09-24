@@ -31,8 +31,8 @@ end
 new_array
 end
 
-def reduce_to_total(array)
-  sum = 0
+def reduce_to_total(array, starting_point = 0)
+  sum = starting_point
     array.length.times do |index|
     sum += array[index]
 end
