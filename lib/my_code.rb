@@ -48,4 +48,14 @@ end
 return true
 end
 
+def reduce_to_any_true (array)
+  array.length.times do |index|
+  if (array[index])
+    return true
+  end
+end
+return false
+end
+
+
   
