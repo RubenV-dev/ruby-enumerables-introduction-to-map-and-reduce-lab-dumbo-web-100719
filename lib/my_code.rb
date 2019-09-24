@@ -31,4 +31,12 @@ end
 new_array
 end
 
+def reduce_to_total(array)
+  sum = 0
+    array.length.times do |index|
+    sum += array[index]
+end
+sum
+end
+
   
