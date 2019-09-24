@@ -39,4 +39,12 @@ end
 sum
 end
 
+def reduce_to_all_true (array)
+  array.length.times do |index|
+    if (!array[index])
+      return false
+    end
+    return true
+end
+
   
