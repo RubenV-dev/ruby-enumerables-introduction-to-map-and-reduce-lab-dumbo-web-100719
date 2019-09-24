@@ -44,7 +44,8 @@ def reduce_to_all_true (array)
     if (!array[index])
       return false
     end
-    return true
+end
+return true
 end
 
   
